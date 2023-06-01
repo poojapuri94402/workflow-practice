@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
     
         steps:
-            - uses: .github/workflows/terraform-apply.yml
+            - uses: actions/checkout@v3
 
             - name: Setup Terraform
               uses: hashicorp/setup-terraform@v1
