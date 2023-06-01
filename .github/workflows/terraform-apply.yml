@@ -1,0 +1,10 @@
+name: Terraform Apply
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    terraform:
+        runs-on: ubuntu-latest
